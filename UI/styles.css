@@ -4,10 +4,10 @@
 }
 @font-face {
   font-family: IndieFlower;
-  src: url("fonts/온글잎 뉸재.ttf");
+  src: url("fonts/IndieFlower.ttf");
 }
 .pink {
-  --background: #f875aa;
+  --background: #377e7f;
   --textColor: #353535;
   --lostColor: #ff0040;
   --wonColor: #6effa1;
