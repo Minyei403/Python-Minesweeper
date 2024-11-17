@@ -3,16 +3,7 @@ var bombs = 0;
 var flaggedCells = [];
 var gameOver = false;
 var won = false;
-body{
-    background: #f8d638;
-    font-size: 25px;
-}
-#js_timer{
-    background: #fff;
-    color: #000;
-    width: 100px;
-    margin: 50px auto;
-}
+
 function startNew(mode) {
   // Easy   -> 7X10=70 	   -> 10 bombs  | 10 -> 15 bombs
   // medium -> 12X25=300   -> 40 bombs  | 18 -> 45 bombs
