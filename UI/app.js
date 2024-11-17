@@ -14,12 +14,12 @@ function startNew(mode) {
     bombs = 15;
     document.getElementById("board").classList.remove("zoomOut");
   } else if (mode === "medium") {
-    size = 18;
-    bombs = 45;
+    size = 10;
+    bombs = 15;
     document.getElementById("board").classList.remove("zoomOut");
   } else if (mode === "hard") {
-    size = 24;
-    bombs = 100;
+    size = 10;
+    bombs = 15;
     document.getElementById("board").classList.add("zoomOut");
   } else if (mode === "Pendar") {
     size = 30;
