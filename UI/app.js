@@ -43,7 +43,7 @@ function updateList(string) {
   let intFirst = 0;
   let theName = "";
   if (!string.includes("B") && string.split("E").length - 1 == bombs) {
-    document.getElementById("h1").innerHTML = `You won \\(•◡•)/`;
+    document.getElementById("h1").innerHTML = `You won`;
     document.getElementById("h1").classList.add("won");
     // console.log("WON");
     won = true;
@@ -61,7 +61,7 @@ function updateList(string) {
     } else if (string[i] == "B") {
       toAdd += `<input class="cell bomb" type="button" onmousedown="printBoard(this, event)" name="${theName}" value=' ' />`;
       gameOver = true;
-      document.getElementById("h1").innerHTML = `Game Over (╯°□°）╯︵ ┻━┻`;
+      document.getElementById("h1").innerHTML = `Game Over`;
       document.getElementById("h1").classList.add("lost");
       // console.log("GameOver");
     } else {
