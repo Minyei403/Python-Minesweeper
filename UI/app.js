@@ -7,7 +7,7 @@ function startNew(mode) {
   // Easy   -> 7X10=70 	   -> 10 bombs  | 10 -> 15 bombs
   // medium -> 12X25=300   -> 40 bombs  | 18 -> 45 bombs
   // hard   -> 18X32=576   -> 100 bombs | 24 -> 100 bombs
-  // extreme-> 26X50=1300  -> 220 bombs | 30 -> 200 bombs
+  // Pendar-> 26X50=1300  -> 220 bombs | 30 -> 200 bombs
   // const mode = element.value;
   if (mode === "easy") {
     size = 10;
@@ -21,7 +21,7 @@ function startNew(mode) {
     size = 24;
     bombs = 100;
     document.getElementById("board").classList.add("zoomOut");
-  } else if (mode === "extreme") {
+  } else if (mode === "Pendar") {
     size = 30;
     bombs = 200;
     document.getElementById("board").classList.add("zoomOut");
@@ -31,7 +31,7 @@ function startNew(mode) {
   flaggedCells = [];
   document.getElementById("h1").classList.remove("won");
   document.getElementById("h1").classList.remove("lost");
-  document.getElementById("h1").innerHTML = `Minesweeper`;
+  document.getElementById("h1").innerHTML = `Uwaterloo Minesweeper`;
   eel.makeBoard(size, bombs)(); //size, bombs
   drawFirst();
 }
