@@ -1,6 +1,6 @@
 @font-face {
   font-family: Sacramento;
-  src: url("fonts/Sacramento.ttf");
+  src: url("fonts/retropix.ttf");
 }
 @font-face {
   font-family: IndieFlower;
@@ -8,13 +8,13 @@
 }
 .pink {
   --background: #377e7f;
-  --textColor: #353535;
-  --lostColor: #ff0040;
+  --textColor: #f9da68;
+  --lostColor: #0000000;
   --wonColor: #6effa1;
   --bgEmpty: #f1d1d0;
-  --bgSelected: #fbaccc;
-  --bgSelectedIn: #ffb7d4;
-  --bgBomb: #f875aa;
+  --bgSelected: #0d0c0c;
+  --bgSelectedIn: #0d0c0c;
+  --bgBomb: #0f0c0f;
   --btnBg: #fbaccc;
   --btnBgHover: #f1d1d0;
   --btn: #353535;
@@ -185,8 +185,8 @@ br {
   background-color: var(--bgBomb) !important;
 }
 .flagged {
-  background-image: url("images/flag.png");
-  background-size: 100%;
+  background-image: url("images/Uwaterloo_logo_12.png");
+  background-size: 95%;
   background-color: var(--bgBomb);
 }
 
